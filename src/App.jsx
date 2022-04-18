@@ -4,6 +4,7 @@ import { Timer } from "./components/useEffectHook";
 import { Todo } from "./components/useReducerHook";
 import { TodoCallBack } from "./components/useCallbackHook";
 import { Memo } from "./components/useMemoHook";
+import { RefHook } from "./components/useRefHook";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Todo />
       <TodoCallBack />
       <Memo />
+      <RefHook />
     </>
   );
 }
