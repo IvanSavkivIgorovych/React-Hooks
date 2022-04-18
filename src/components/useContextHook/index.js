@@ -13,34 +13,34 @@ export const ComponentOne = () => {
   );
 };
 
-function ComponentTwo() {
+export const ComponentTwo = () => {
   return (
     <>
       <h1>Component #2</h1>
       <ComponentThree />
     </>
   );
-}
+};
 
-function ComponentThree() {
+export const ComponentThree = () => {
   return (
     <>
       <h1>Component #3</h1>
       <ComponentFour />
     </>
   );
-}
+};
 
-function ComponentFour() {
+export const ComponentFour = () => {
   return (
     <>
       <h1>Component #4</h1>
       <ComponentFive />
     </>
   );
-}
+};
 
-function ComponentFive() {
+export const ComponentFive = () => {
   const user = useContext(MyContext);
 
   return (
@@ -49,6 +49,4 @@ function ComponentFive() {
       <h2>{`Hello, ${user} one more time)))`}</h2>
     </>
   );
-}
-
-ReactDOM.render(<ComponentOne />, document.getElementById("root"));
+};

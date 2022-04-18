@@ -1,6 +1,13 @@
 import "./App.css";
 import { Car } from "./components/useStateHook";
 import { Timer } from "./components/useEffectHook";
+import {
+  ComponentOne,
+  ComponentTwo,
+  ComponentThree,
+  ComponentFour,
+  ComponentFive,
+} from "./components/useContextHook";
 import { Todo } from "./components/useReducerHook";
 import { TodoCallBack } from "./components/useCallbackHook";
 import { Memo } from "./components/useMemoHook";
@@ -11,6 +18,7 @@ function App() {
     <>
       <Car />
       <Timer />
+      <ComponentOne />
       <Todo />
       <TodoCallBack />
       <Memo />
